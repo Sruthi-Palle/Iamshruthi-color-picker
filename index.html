@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--this link is must.to use bootstrap class names-->
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+
+<body>
+    <div class="bg-container d-flex flex-column justify-content-center text-center" id="colorPickerContainer">
+        <h1>Color Picker</h1>
+        <div>
+            <button id="button1" onclick="buttonOne()">#e0e0e0</button>
+            <button id="button2" onclick="buttonTwo()">#6fcf97</button>
+            <button id="button3" onclick="buttonThree()">#56ccf2</button>
+            <button id="button4" onclick="buttonFour()">#bb6bd9</button>
+        </div>
+        <p class="background">Background Color : <span id="selectedColorHexCode">#fffff</span></p>
+        <p>Try clicking on one of the colors above to change the background color of this page!</p>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
